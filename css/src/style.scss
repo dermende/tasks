@@ -2,7 +2,7 @@
 	* rules for app-navigation
 	*/
 
-#app-navigation {
+.app-navigation {
 	> ul {
 		> li {
 			&.collection .app-navigation-entry-icon::before {
@@ -241,11 +241,7 @@
 	text-decoration: none;
 }
 
-#content {
-	color: $gray_dark;
-}
-
-#app-content {
+.app-content {
 	overflow-x: hidden;
 
 	.header {
